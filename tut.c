@@ -1,9 +1,11 @@
 #include<stdio.h> 
 #include<string.h> 
-int main()
- {
-char c[]="GATECSIT2017";
-char* p=c;
-printf("%d", (int)strlen(c+2[p]-6[p]-1));
- return 0;
+int main(){
+ char p[20];
+char *s = "string";
+int length = strlen(s);
+int i;
+for (i = 0; i < length; i++)
+p[i] = s[length - i]; printf("%s",p);
+return 0;
 }
